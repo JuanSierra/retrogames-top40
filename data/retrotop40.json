@@ -213,31 +213,71 @@
       "Autor": "Alex",
       "Juego": "The Witness",
       "Plataformas": "PC",
-      "Descripcion": "Indie 2016. Del creador de Braid. Juego impactante con una interesante historia. Con ideas originales y puzzles difíciles"
+      "Descripcion": "Indie 2016. Del creador de Braid. Juego impactante con una interesante historia. Con ideas originales y puzzles difíciles",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Witness_gameplay_screenshot.jpg?download",
+	  "Attribution": 
+		{
+			"Title" : "The Witness gameplay screenshot",
+			"Author" : "Lordtobi;https://en.wikipedia.org/wiki/User:Lordtobi",
+			"Source" : "https://en.wikipedia.org/wiki/File:The_Witness_gameplay_screenshot.jpg",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Nico",
       "Juego": "Hotline Miami",
       "Plataformas": "PC",
-      "Descripcion": "Mucha adrenalina y psicodelia. Casi los creadores de un genero."
+      "Descripcion": "Mucha adrenalina y psicodelia. Casi los creadores de un genero.",
+	  "Imagen": "https://farm9.staticflickr.com/8532/8484340679_a870879385_b.jpg",
+	  "Attribution": 
+		{
+			"Title" : "Hotline Miami 5",
+			"Author" : "PlayStation Europe;https://www.flickr.com/photos/37952360@N04",
+			"Source" : "https://ccsearch.creativecommons.org/photos/3305175b-dba7-49dd-90e4-f83f32e56540",
+			"License" : "CC BY-NC 2.0;https://creativecommons.org/licenses/by-nc/2.0/"
+		}
    },
    {
       "Autor": "Pol",
       "Juego": "Dungeons & Dragons",
       "Plataformas": "Arcade",
-      "Descripcion": "Juego de Capcom en el que introdujo conceptos del rol en un beatem up"
+      "Descripcion": "Juego de Capcom en el que introdujo conceptos del rol en un beatem up",
+	  "Imagen": "https://www.mobygames.com/images/shots/l/667552-dungeons-dragons-tower-of-doom-arcade-screenshot-fight-in.png",
+	  "Attribution": 
+		{
+			"Title" : "Fight in town",
+			"Author" : "666gonzo666;https://www.mobygames.com/user/sheet/userSheetId,186443/",
+			"Source" : "https://www.mobygames.com/game/arcade/dungeons-dragons-tower-of-doom/screenshots/gameShotId,667552/",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free/"
+		}
    },
    {
       "Autor": "Alex",
       "Juego": "Chrono Trigger",
       "Plataformas": "Arcade",
-      "Descripcion": "Agrega viajes en el tiempo a un Jrpg muy icónico. Muchos finales. Personajes variados y combos de ataque."
+      "Descripcion": "Agrega viajes en el tiempo a un Jrpg muy icónico. Muchos finales. Personajes variados y combos de ataque.",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/d/d5/ChronoTriggerInside.PNG",
+	  "Attribution": 
+		{
+			"Title" : "Chrono Trigger Inside",
+			"Author" : "Theo's Little Bot;https://en.wikipedia.org/wiki/User:Theo%27s_Little_Bot",
+			"Source" : "https://en.wikipedia.org/wiki/File:ChronoTriggerInside.PNG",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free/"
+		}
    },
    {
       "Autor": "Nico",
       "Juego": "Dark Souls",
       "Plataformas": "PS",
-      "Descripcion": "Toda una saga. Recomendado en version remaster. Mundo extenso.  Gran variedad de estrategias para solucionar los retos de cada misión. Diseño de enemigos y un estilo propio."
+      "Descripcion": "Toda una saga. Recomendado en version remaster. Mundo extenso.  Gran variedad de estrategias para solucionar los retos de cada misión. Diseño de enemigos y un estilo propio.",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/7/7c/Darksoulsbattle.jpg",
+	  "Attribution": 
+		{
+			"Title" : "Darksouls battle",
+			"Author" : "From Software;https://en.wikipedia.org/wiki/FromSoftware",
+			"Source" : "https://en.wikipedia.org/wiki/File:Darksoulsbattle.jpg",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free/"
+		}
    },
    {
       "Autor": "Pol",
