@@ -1,0 +1,27 @@
+{
+  "name": "retrogames-top40",
+  "version": "1.0.0",
+  "description": "Static site with a retro video games top",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./main.js && mustache data/retrotop40.json template.mustache > dist/retrotop40.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanSierra/retrogames-top40.git"
+  },
+  "keywords": [
+    "games",
+    "top",
+    "retro"
+  ],
+  "author": "@JuanSierra",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JuanSierra/retrogames-top40/issues"
+  },
+  "homepage": "https://github.com/JuanSierra/retrogames-top40#readme",
+  "dependencies": {
+    "mustache": "^3.0.3"
+  }
+}

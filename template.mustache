@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  
+<div class="wrapper">
+
+	<header class="box">
+    <div class="box-body">
+		<pre>##       #                               #   #  #    #              ###             # # ###
+# # ### ### ### ### ### ### ### ###  ## ###     ###  #  ###  ##      #  ### ###     # # # #
+##  ##   #  #   # # #   # # ### # # # #  #   #  # #  #  ##   #       #  # # # #     ### # #
+# # ###  ## #   ### ### ### # # ### ###  ##  ## ###  ## ### ##       #  ### ###       # # #
+# #                             #                                    #      #         # ###
+     </pre>
+    </div>
+	</header>
+
+      
+	<section class="columns wrap-collabsible">
+		
+		<div class="column box">
+			<h2>Pol</h2>
+			<div class="box-body">
+				<input id="collapsible" class="toggle" type="checkbox">
+				<label for="collapsible" class="lbl-toggle"><mark>more</mark></label>
+				{{#.}}
+				<div class=" collapsible-content">
+					<div class="content-inner">
+						<h4>•{{.0.Juego}}</h4>
+						<p>{{.0.Descripcion}}</p>
+						<img src="{{Imagen}}"  />
+					</div>
+				</div>
+				{{/.}}
+			  </div>
+		</div>
+		
+		<div class="column box">
+			<h2>Alex</h2>
+			<div class="box-body">
+				<h4>2nd Content Area</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione architecto necessitatibus cum praesentium dolor totam voluptatibus recusandae? Illo quod nemo ratione itaque dolores laudantium error vero laborum blanditiis nostrum.</p>
+			</div>
+		</div>
+	  
+		<div class="column box">
+			<h2>Nico</h2>
+			<div class="box-body">
+				<h4>3rd Content Area</h4>
+				<p>Illo quod nemo ratione itaque dolores laudantium error vero laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione architecto cum praesentium voluptatibus recusandae?</p>
+			</div>
+		</div>
+		
+	</section>
+	<footer class="box turquoise text-dark">
+    
+	<h2>Doom 2</h2>    
+	<div class="box-body">
+		<p>El elegido por todos. Es doom</p>
+		<img src="https://doomwiki.org/w/images/5/51/Doom2_title.png"/>
+	</div>
+	</footer>
+</div>
+</body>
+</html>
