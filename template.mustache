@@ -33,32 +33,50 @@
 			<div class="box-body">
 				<input id="collapsible" class="toggle" type="checkbox">
 				<label for="collapsible" class="lbl-toggle"><mark>more</mark></label>
-				{{#.}}
+				{{#Pol}}
 				<div class=" collapsible-content">
 					<div class="content-inner">
-						<h4>•{{.0.Juego}}</h4>
-						<p>{{.0.Descripcion}}</p>
+						<h4>• {{Juego}}</h4>
+						<p>{{Descripcion}}</p>
 						<img src="{{Imagen}}"  />
 					</div>
 				</div>
-				{{/.}}
+				{{/Pol}}
 			  </div>
 		</div>
 		
 		<div class="column box">
 			<h2>Alex</h2>
 			<div class="box-body">
-				<h4>2nd Content Area</h4>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione architecto necessitatibus cum praesentium dolor totam voluptatibus recusandae? Illo quod nemo ratione itaque dolores laudantium error vero laborum blanditiis nostrum.</p>
-			</div>
+				<input id="collapsible" class="toggle" type="checkbox">
+				<label for="collapsible" class="lbl-toggle"><mark>more</mark></label>
+				{{#Alex}}
+				<div class=" collapsible-content">
+					<div class="content-inner">
+						<h4>• {{Juego}}</h4>
+						<p>{{Descripcion}}</p>
+						<img src="{{Imagen}}"  />
+					</div>
+				</div>
+				{{/Alex}}
+			  </div>
 		</div>
 	  
 		<div class="column box">
 			<h2>Nico</h2>
 			<div class="box-body">
-				<h4>3rd Content Area</h4>
-				<p>Illo quod nemo ratione itaque dolores laudantium error vero laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione architecto cum praesentium voluptatibus recusandae?</p>
-			</div>
+				<input id="collapsible" class="toggle" type="checkbox">
+				<label for="collapsible" class="lbl-toggle"><mark>more</mark></label>
+				{{#Nico}}
+				<div class=" collapsible-content">
+					<div class="content-inner">
+						<h4>• {{Juego}}</h4>
+						<p>{{Descripcion}}</p>
+						<img src="{{Imagen}}"  />
+					</div>
+				</div>
+				{{/Nico}}
+			  </div>
 		</div>
 		
 	</section>
