@@ -4,7 +4,7 @@
   "description": "Static site with a retro video games top",
   "main": "index.js",
   "scripts": {
-    "start": "node ./main.js && mustache data/retrotop40.filtered.json template.mustache > dist/retrotop40.html"
+    "start": "node ./main.js"
   },
   "repository": {
     "type": "git",

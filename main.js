@@ -1,6 +1,8 @@
 const fs = require('fs');
+const Mustache = require('mustache');
 
 let data = fs.readFileSync('data/retrotop40.json');
+let template = fs.readFileSync('template.mustache', 'utf8');
 let entries = JSON.parse(data);
 
 let filtered = {
@@ -9,4 +11,8 @@ let filtered = {
 	"Nico" : entries.filter(e => e.Autor == "Nico")
 };
 
-let file = fs.writeFileSync('data/retrotop40.filtered.json', JSON.stringify(filtered));
+var rendered = Mustache.render(template, filtered);
+fs.writeFile('dist/index.html', rendered , (err) => {
+	if (err) throw err;
+	console.log('The file has been saved!');
+});
