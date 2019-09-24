@@ -283,43 +283,99 @@
       "Autor": "Pol",
       "Juego": "XCom 2: Enemy Unknown",
       "Plataformas": "PC",
-      "Descripcion": "Estrategia por turnos. Mejores graficos q el 1. Gestion de base y unidades con roles y experiencia. Es dificil y se recomienda usar  guía"
+      "Descripcion": "Estrategia por turnos. Mejores graficos q el 1. Gestion de base y unidades con roles y experiencia. Es dificil y se recomienda usar  guía",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/7/7c/Darksoulsbattle.jpg",
+	  "Attribution": 
+		{
+			"Title" : "Darksouls battle",
+			"Author" : "DatBot;https://en.wikipedia.org/wiki/User:DatBot",
+			"Source" : "https://en.wikipedia.org/wiki/File:Darksoulsbattle.jpg",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free/"
+		}
    },
    {
       "Autor": "Alex",
       "Juego": "The long journey",
       "Plataformas": "PC",
-      "Descripcion": "Aventura Gráfica de Daedalic. En un mundo futurista y distópico con personajes bien escritos. Toca temas filosoficos."
+      "Descripcion": "Aventura Gráfica de Daedalic. En un mundo futurista y distópico con personajes bien escritos. Toca temas filosoficos.",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/d/dd/Long_Journey_Home_video_game_logo_2017.png",
+	  "Attribution": 
+		{
+			"Title" : "Long Journey Home video game logo 2017",
+			"Author" : "Daedalic Entertainment;https://en.wikipedia.org/wiki/Daedalic_Entertainment",
+			"Source" : "https://en.wikipedia.org/wiki/File:Long_Journey_Home_video_game_logo_2017.png",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free/"
+		}
    },
    {
       "Autor": "Nico",
       "Juego": "Mario 64",
       "Plataformas": "N64",
-      "Descripcion": "Aprovechó con nuevas mecánicas y mundos originales todo el 3D que podía ofrecer la consola. Revolucionó el juego clásico de plataformas."
+      "Descripcion": "Aprovechó con nuevas mecánicas y mundos originales todo el 3D que podía ofrecer la consola. Revolucionó el juego clásico de plataformas.",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg",
+	  "Attribution": 
+		{
+			"Title" : "Super Mario 64 box cover",
+			"Author" : "L_ke;https://en.wikipedia.org/wiki/User:L_ke",
+			"Source" : "https://en.wikipedia.org/wiki/File:Super_Mario_64_box_cover.jpg",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free/"
+		}
    },
    {
       "Autor": "Pol",
       "Juego": "Flashback",
       "Plataformas": "N64",
-      "Descripcion": "La idea del prince of persia con mas historia y aventura. Existe un remake muy recomendado. Puede presentar una gran dificultad."
+      "Descripcion": "La idea del prince of persia con mas historia y aventura. Existe un remake muy recomendado. Puede presentar una gran dificultad.",
+	  "Imagen": "https://live.staticflickr.com/4081/4905765442_821e26c212_z_d.jpg",
+	  "Attribution": 
+		{
+			"Title" : "A Flashback game wallpaper",
+			"Author" : "H4nD5Fr33;https://www.flickr.com/photos/53127821@N02",
+			"Source" : "https://ccsearch.creativecommons.org/photos/de25618b-ca42-4b24-be0d-90b4612a1df8",
+			"License" : "CC BY-NC-SA 2.0;https://creativecommons.org/licenses/by-nc-sa/2.0/"
+		}
    },
    {
       "Autor": "Alex",
       "Juego": "Heroes of Migth and Magic 3",
       "Plataformas": "PC",
-      "Descripcion": "Estrategia x turnos. Mucho contenido y razas completamente jugables. El mejor de toda la saga. Juego poco compasivo"
+      "Descripcion": "Estrategia x turnos. Mucho contenido y razas completamente jugables. El mejor de toda la saga. Juego poco compasivo",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/9/9b/Homm3boxart.jpg",
+	  "Attribution": 
+		{
+			"Title" : "Cover of Heroes of Might and Magic 3",
+			"Author" : "DatBot;https://en.wikipedia.org/wiki/User:DatBot",
+			"Source" : "https://en.wikipedia.org/wiki/File:Homm3boxart.jpg",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Nico",
       "Juego": "Uncharted 4",
       "Plataformas": "PS4",
-      "Descripcion": "Gran cierre de una saga. Juego de accion. Cinematografico y adictivo. Facil de jugar. Hereda y supera mucho a Tomb Raider. Tecnicamente exigente"
+      "Descripcion": "Gran cierre de una saga. Juego de accion. Cinematografico y adictivo. Facil de jugar. Hereda y supera mucho a Tomb Raider. Tecnicamente exigente",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.jpg",
+	  "Attribution": 
+		{
+			"Title" : "Uncharted 4: A Thief's End",
+			"Author" : "Theo's Little Bot;https://en.wikipedia.org/wiki/User:Theo%27s_Little_Bot",
+			"Source" : "https://en.wikipedia.org/wiki/File:Uncharted_4_box_artwork.jpg",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Pol",
       "Juego": "Mafia: city of lost heaven",
       "Plataformas": "PC",
-      "Descripcion": "Mundo abierto. Graficamente soportable y con buena banda sonora. Contrasta con GTA en la inmersion de la historia y los personajes."
+      "Descripcion": "Mundo abierto. Graficamente soportable y con buena banda sonora. Contrasta con GTA en la inmersion de la historia y los personajes.",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.jpg",
+	  "Attribution": 
+		{
+			"Title" : "Uncharted 4: A Thief's End",
+			"Author" : "Theo's Little Bot;https://en.wikipedia.org/wiki/User:Theo%27s_Little_Bot",
+			"Source" : "https://en.wikipedia.org/wiki/File:Uncharted_4_box_artwork.jpg",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Alex",
