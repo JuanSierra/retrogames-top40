@@ -381,78 +381,182 @@
       "Autor": "Alex",
       "Juego": "Grand Theft Auto 5",
       "Plataformas": "PC",
-      "Descripcion": "Un mundo abierto casi perfecto. Representa la ciudad de Los Angeles muy bien. El mejor personaje de toda la saga. Tiene variedad de juegos dentro del juego y variedad de sidequest. Casi infinito. Buen multiplayer"
+      "Descripcion": "Un mundo abierto casi perfecto. Representa la ciudad de Los Angeles muy bien. El mejor personaje de toda la saga. Tiene variedad de juegos dentro del juego y variedad de sidequest. Casi infinito. Buen multiplayer",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+	  "Attribution": 
+		{
+			"Title" : "Grand Theft Auto V",
+			"Author" : "Rockstar Games;https://en.wikipedia.org/wiki/Rockstar_Games",
+			"Source" : "https://en.wikipedia.org/wiki/File:Grand_Theft_Auto_V.png",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Nico",
       "Juego": "Final Fantasy 7",
       "Plataformas": "PS",
-      "Descripcion": "Historia única, epica y personajes increibles. Mundo bien diseñado.  Jugable hoy dia"
+      "Descripcion": "Historia única, epica y personajes increibles. Mundo bien diseñado.  Jugable hoy dia",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/4/4f/FFVIIbattlexample.jpg",
+	  "Attribution": 
+		{
+			"Title" : "FFVII battle example",
+			"Author" : "Theo's Little Bot;https://en.wikipedia.org/wiki/User:Theo%27s_Little_Bot",
+			"Source" : "https://en.wikipedia.org/wiki/File:FFVIIbattlexample.jpg",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Pol",
       "Juego": "Commandos",
       "Plataformas": "PC",
-      "Descripcion": "Estrategia en tiempo real. Curva aprendizaje bien lograda. Buena  introducción en los personajes y en la  situacion. Cinematicas inmersivas."
+      "Descripcion": "Estrategia en tiempo real. Curva aprendizaje bien lograda. Buena  introducción en los personajes y en la  situacion. Cinematicas inmersivas.",
+   	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/d/d2/Commandos_Behind_Enemy_Lines.jpg",
+	  "Attribution": 
+		{
+			"Title" : "Commandos Behind Enemy Lines",
+			"Author" : "Amazon;http://images.amazon.com/images/P/B00004UBMZ.02._SCLZZZZZZZ_.jpg",
+			"Source" : "https://en.wikipedia.org/wiki/File:Commandos_Behind_Enemy_Lines.jpg",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Alex",
       "Juego": "Shadow Tactics",
       "Plataformas": "PS 4",
-      "Descripcion": "Mejoró el Desperados 1. Más dinamico y buen estilo gráfico. Ambientado en Japón feudal. Personajes clásicos del genero pero mejor balanceados. Mas divertido y justo."
+      "Descripcion": "Mejoró el Desperados 1. Más dinamico y buen estilo gráfico. Ambientado en Japón feudal. Personajes clásicos del genero pero mejor balanceados. Mas divertido y justo.",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/b/b7/Shadow_Tactics_Blades_of_the_Shogun_title_splash.jpg",
+	  "Attribution": 
+		{
+			"Title" : "Title menu splash for computer game Shadow Tactics: Blades of the Shogun.",
+			"Author" : "Ghrelinger;https://en.wikipedia.org/wiki/User:Ghrelinger",
+			"Source" : "https://en.wikipedia.org/wiki/File:Shadow_Tactics_Blades_of_the_Shogun_title_splash.jpg",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Nico",
       "Juego": "Mario Kart 64",
       "Plataformas": "N64",
-      "Descripcion": "Posicionó el género del karting competitivo. Introdujo el modo batalla."
+      "Descripcion": "Posicionó el género del karting competitivo. Introdujo el modo batalla.",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png",
+	  "Attribution": 
+		{
+			"Title" : "Mario Kart 64 box",
+			"Author" : "JasonS2101;https://en.wikipedia.org/wiki/User:JasonS2101",
+			"Source" : "https://en.wikipedia.org/wiki/File:Mario_Kart_64box.png",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Pol",
       "Juego": "Sensible World of Soccer '96",
       "Plataformas": "DOS",
-      "Descripcion": "Mezcla estilo entre manager y arcade. Pionero en mecanicas."
+      "Descripcion": "Mezcla estilo entre manager y arcade. Pionero en mecanicas.",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/a/aa/Sensible_World_of_Soccer_cover_art.png",
+	  "Attribution": 
+		{
+			"Title" : "Sensible World of Soccer cover art",
+			"Author" : "Theo's Little Bot;https://en.wikipedia.org/wiki/User:Theo%27s_Little_Bot",
+			"Source" : "https://en.wikipedia.org/wiki/File:Sensible_World_of_Soccer_cover_art.png",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Alex",
       "Juego": "Final Fantasy 6",
       "Plataformas": "SNES",
-      "Descripcion": "Personajes variados secretos. Buenos graficos y efectos."
+      "Descripcion": "Personajes variados secretos. Buenos graficos y efectos.",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/c/c6/Final_Fantasy_VI_battle.png",
+	  "Attribution": 
+		{
+			"Title" : "Final Fantasy VI battle",
+			"Author" : "Ronjones;https://en.wikipedia.org/wiki/User:Ronjones",
+			"Source" : "https://en.wikipedia.org/wiki/File:Final_Fantasy_VI_battle.png",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Pol",
       "Juego": "Final Fantasy 7",
       "Plataformas": "SNES",
-      "Descripcion": "Esta dentro de los clásicos del JRPG. Tiene una buena música"
+      "Descripcion": "Esta dentro de los clásicos del JRPG. Tiene una buena música",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/c/c6/Final_Fantasy_VI_battle.png",
+	  "Attribution": 
+		{
+			"Title" : "Final Fantasy VI battle",
+			"Author" : "Ronjones;https://en.wikipedia.org/wiki/User:Ronjones",
+			"Source" : "https://en.wikipedia.org/wiki/File:Final_Fantasy_VI_battle.png",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Pol",
       "Juego": "Indiana Jones and the last crusade",
       "Plataformas": "DOS",
-      "Descripcion": "En VGA. El desarollo de la historia es inmersivo y fiel a la película"
+      "Descripcion": "En VGA. El desarollo de la historia es inmersivo y fiel a la película",
+	  "Imagen": "https://www.mobygames.com/images/promo/original/1472015274-3211627620.jpg",
+	  "Attribution": 
+		{
+			"Title" : "Official Screenshot from Steam",
+			"Author" : "ZeTomes;https://www.mobygames.com/user/sheet/userSheetId,261708/",
+			"Source" : "https://www.mobygames.com/game/windows/indiana-jones-and-the-last-crusade-the-graphic-adventure/promo/promoImageId,50147/",
+			"License" : "CC-BY-SA;https://creativecommons.org/licenses/by-sa/3.0/"
+		}
    },
    {
       "Autor": "Alex",
       "Juego": "Indiana Jones and the fate of atlantis",
       "Plataformas": "DOS",
-      "Descripcion": "La magia de las aventuras gráficas de Lucas Arts de la saga Indiana Jones pero con un plot novedoso"
+      "Descripcion": "La magia de las aventuras gráficas de Lucas Arts de la saga Indiana Jones pero con un plot novedoso",
+	  "Imagen": "https://www.mobygames.com/images/shots/l/32586-indiana-jones-and-the-fate-of-atlantis-amiga-screenshot-title.gif",
+	  "Attribution": 
+		{
+			"Title" : "Title Screen",
+			"Author" : "NGC5194;https://www.mobygames.com/user/sheet/userSheetId,2602/",
+			"Source" : "https://www.mobygames.com/game/amiga/indiana-jones-and-the-fate-of-atlantis/screenshots/gameShotId,32586/",
+			"License" : "CC-BY-SA;https://creativecommons.org/licenses/by-sa/3.0/"
+		}
    },
    {
       "Autor": "Nico",
       "Juego": "Day of the Tentacle",
       "Plataformas": "DOS",
-      "Descripcion": "....."
+      "Descripcion": ".....",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/4/4e/Day_of_the_tentacle_hd_screenshot.png",
+	  "Attribution": 
+		{
+			"Title" : "A screenshot from the high definition remaster of Day of the Tentacle",
+			"Author" : "NGC5194;https://www.mobygames.com/user/sheet/userSheetId,2602/",
+			"Source" : "https://en.wikipedia.org/wiki/File:Day_of_the_tentacle_hd_screenshot.png",
+			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+		}
    },
    {
       "Autor": "Pol",
       "Juego": "Mortal Kombat 2",
       "Plataformas": "Arcade",
-      "Descripcion": "Es el Mortal Kombat 1 pero mejor logrado. Incluyó mejores niveles y personajes."
+      "Descripcion": "Es el Mortal Kombat 1 pero mejor logrado. Incluyó mejores niveles y personajes.",
+	  "Imagen": "https://www.mobygames.com/images/shots/l/660171-mortal-kombat-ii-arcade-screenshot-uppercut.png",
+	  "Attribution": 
+		{
+			"Title" : "Uppercut",
+			"Author" : "666gonzo666;https://www.mobygames.com/user/sheet/userSheetId,186443/",
+			"Source" : "https://www.mobygames.com/game/arcade/mortal-kombat-ii/screenshots/gameShotId,660171/",
+			"License" : "CC-BY-SA;https://creativecommons.org/licenses/by-sa/3.0/"
+		}
    },
    {
       "Autor": "Todos",
       "Juego": "Doom II",
       "Plataformas": "DOS",
-      "Descripcion": "Partió en dos la historia de los videojuegos, la revolución de los shooters. Se recomienda jugar la versión Brutal Doom."
+      "Descripcion": "Partió en dos la historia de los videojuegos, la revolución de los shooters. Se recomienda jugar la versión Brutal Doom.",
+	  "Imagen": "https://www.mobygames.com/images/shots/l/1320-doom-ii-dos-screenshot-game-title-screen.gif",
+	  "Attribution": 
+		{
+			"Title" : "Game title screen",
+			"Author" : "Tomer Gabel;https://www.mobygames.com/user/sheet/userSheetId,60/",
+			"Source" : "https://www.mobygames.com/game/dos/doom-ii_/screenshots/gameShotId,1320/",
+			"License" : "CC-BY-SA;https://creativecommons.org/licenses/by-sa/3.0/"
+		}
    }
 ]
