@@ -130,12 +130,12 @@
       "Juego": "Warcraft 3",
       "Plataformas": "Windows",
       "Descripcion": "Una novedad para la saga y el género. Incluye roleo por unidades.  Inspiró a Dota. Venia con un editor, se logró un avance en el modo multiplayer.",
-	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/2/2f/Alien_Breed_-_Tower_Assault_cover.jpg",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/f/fa/Reign_of_Chaos_campaign.png",
 	  "Attribution": 
 		{
-			"Title" : "Alien Breed - Tower Assault cover",
-			"Author" : "Blizzard",
-			"Source" : "https://en.wikipedia.org/wiki/File:Alien_Breed_-_Tower_Assault_cover.jpg",
+			"Title" : "Warcraft III: Reign of Chaos",
+			"Author" : "DatBot;https://en.wikipedia.org/wiki/User:DatBot",
+			"Source" : "https://en.wikipedia.org/wiki/File:Reign_of_Chaos_campaign.png",
 			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
 		}
    },
@@ -368,12 +368,12 @@
       "Juego": "Mafia: city of lost heaven",
       "Plataformas": "PC",
       "Descripcion": "Mundo abierto. Graficamente soportable y con buena banda sonora. Contrasta con GTA en la inmersion de la historia y los personajes.",
-	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.jpg",
+	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/6/6a/Mafia_Gameplay.jpg",
 	  "Attribution": 
 		{
-			"Title" : "Uncharted 4: A Thief's End",
-			"Author" : "Theo's Little Bot;https://en.wikipedia.org/wiki/User:Theo%27s_Little_Bot",
-			"Source" : "https://en.wikipedia.org/wiki/File:Uncharted_4_box_artwork.jpg",
+			"Title" : "Mafia: The City of Lost Heaven",
+			"Author" : "Illusion Softworks",
+			"Source" : "https://en.wikipedia.org/wiki/File:Mafia_Gameplay.jpg",
 			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
 		}
    },
@@ -424,13 +424,13 @@
       "Juego": "Shadow Tactics",
       "Plataformas": "PS 4",
       "Descripcion": "Mejoró el Desperados 1. Más dinamico y buen estilo gráfico. Ambientado en Japón feudal. Personajes clásicos del genero pero mejor balanceados. Mas divertido y justo.",
-	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/b/b7/Shadow_Tactics_Blades_of_the_Shogun_title_splash.jpg",
+	  "Imagen": "https://www.mobygames.com/images/promo/original/1495007680-561185051.png",
 	  "Attribution": 
 		{
-			"Title" : "Title menu splash for computer game Shadow Tactics: Blades of the Shogun.",
-			"Author" : "Ghrelinger;https://en.wikipedia.org/wiki/User:Ghrelinger",
-			"Source" : "https://en.wikipedia.org/wiki/File:Shadow_Tactics_Blades_of_the_Shogun_title_splash.jpg",
-			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free"
+			"Title" : "Official Screenshot",
+			"Author" : "Evolyzer;https://www.mobygames.com/user/sheet/userSheetId,273736/",
+			"Source" : "https://www.mobygames.com/game/shadow-tactics-blades-of-the-shogun/promo/promoImageId,208975/",
+			"License" : "CC-BY-SA;https://creativecommons.org/licenses/by-sa/3.0/"
 		}
    },
    {
