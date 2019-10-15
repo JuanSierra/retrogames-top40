@@ -318,12 +318,17 @@
          transition: max-height .25s ease-in-out;
     }
 }
- img {
+img {
      display:block;
      margin:auto;
      max-width:200px;
      max-height:200px;
      border: 1px solid #999;
+}
+.banner {
+	 max-width:800px;
+     max-height:1000px;
+	 border: 0px;
 }
  h4{
      color:yellow 
