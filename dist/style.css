@@ -212,13 +212,7 @@
      margin: 5px 0;
 }
  @media screen and (min-width: 981px) {
-     .lbl-toggle {
-         display: none;
-    }
-     .lbl-toggle2 {
-         display: none;
-    }
-     .lbl-toggle3 {
+     .lbl-toggle, .lbl-toggle2, .lbl-toggle3 {
          display: none;
     }
 }
@@ -237,6 +231,10 @@
      .lbl-toggle {
          display: none;
     }
+	.banner {
+	 width:100%;
+	 border: 0px;
+}
 }
  @media screen and (max-width: 680px) {
      .columns .column {
@@ -336,4 +334,6 @@ img {
  input[type='checkbox'] {
      display: none;
 }
- 
+.fill{
+	height: 100%;
+}

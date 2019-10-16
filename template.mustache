@@ -16,29 +16,16 @@
 
 	<header class="box">
     <div class="box-body">
-		<image class="banner" src="../data/banner.png"></image>
+		<picture>  
+			<source media="(max-width: 680px)" srcset="../data/banner_mobile.png">  
+			<img class="banner" src="../data/banner.png">
+		</picture>
     </div>
 	</header>
 
       
 	<section class="columns wrap-collabsible">
-		<div class="column box">
-			<h2>Pol</h2>
-			<div class="box-body">
-				<image src="../data/pol.png"></image>
-				<input id="collapsible" class="toggle" type="checkbox">
-				<label for="collapsible" class="lbl-toggle"><mark>more</mark></label>
-				<div class=" collapsible-content">
-				{{#Pol}}
-					<div class="content-inner">
-						<h4>• {{Juego}}</h4>
-						<p>{{Descripcion}}</p>
-						<img src="{{Imagen}}"  />
-					</div>
-				{{/Pol}}
-				</div>
-			  </div>
-		</div>
+		
 		<div class="column box">
 			<h2>Alex</h2>
 			<div class="box-body">
@@ -75,14 +62,35 @@
 			  </div>
 		</div>
 		
+		<div class="column box">
+			<h2>Pol</h2>
+			<div class="box-body">
+				<image src="../data/pol.png"></image>
+				<input id="collapsible" class="toggle" type="checkbox">
+				<label for="collapsible" class="lbl-toggle"><mark>more</mark></label>
+				<div class=" collapsible-content">
+				{{#Pol}}
+					<div class="content-inner">
+						<h4>• {{Juego}}</h4>
+						<p>{{Descripcion}}</p>
+						<img src="{{Imagen}}"  />
+					</div>
+				{{/Pol}}
+				</div>
+			  </div>
+		</div>
 	</section>
 	<footer class="box turquoise text-dark">
     
-	<h2>Doom 2</h2>    
+	{{#Todos}}
+	<h2>{{Juego}}</h2>    
 	<div class="box-body">
-		<p>El elegido por todos. Es doom</p>
-		<img src="https://doomwiki.org/w/images/5/51/Doom2_title.png"/>
+		
+		<p>{{Descripcion}}</p>
+		<img src="{{Imagen}}"  />
+		
 	</div>
+	{{/Todos}}
 	</footer>
 </div>
 </body>

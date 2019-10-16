@@ -281,16 +281,16 @@
    },
    {
       "Autor": "Pol",
-      "Juego": "XCom 2: Enemy Unknown",
+      "Juego": "X-Com 2: Enemy Unknown",
       "Plataformas": "PC",
       "Descripcion": "Estrategia por turnos. Mejores graficos q el 1. Gestion de base y unidades con roles y experiencia. Es dificil y se recomienda usar  guía",
-	  "Imagen": "https://upload.wikimedia.org/wikipedia/en/7/7c/Darksoulsbattle.jpg",
+	  "Imagen": "https://www.mobygames.com/images/shots/l/2549-x-com-ufo-defense-dos-screenshot-troops-position-around-the.gif",
 	  "Attribution": 
 		{
-			"Title" : "Darksouls battle",
-			"Author" : "DatBot;https://en.wikipedia.org/wiki/User:DatBot",
-			"Source" : "https://en.wikipedia.org/wiki/File:Darksoulsbattle.jpg",
-			"License" : "WP:WPFU;https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Images_and_Media/Non-free/"
+			"Title" : "Troops position around the UFO door",
+			"Author" : "IJan;https://www.mobygames.com/user/sheet/userSheetId,491/",
+			"Source" : "https://www.mobygames.com/game/dos/x-com-ufo-defense/screenshots/gameShotId,2549/",
+			"License" : "CC-BY-SA;https://creativecommons.org/licenses/by-sa/3.0/"
 		}
    },
    {
