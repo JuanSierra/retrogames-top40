@@ -1,13 +1,18 @@
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="style.css">
-
+  <title>Retrocompatibles · Top 40</title>
+  <meta name="description" content="Top 40 de videojuegos">
+  <meta name="author" content="@jslakro">
+  <meta name="keywords" content="videogames, games, tops"/>
+  <meta name="subject" content="videogames">
+  <meta name="language" content="ES">
+  <meta name="robots" content="index,follow" />
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
 </head>
 
 <body>
@@ -17,8 +22,8 @@
 	<header class="box">
     <div class="box-body">
 		<picture>  
-			<source media="(max-width: 680px)" srcset="../data/banner_mobile.png">  
-			<img class="banner" src="../data/banner.png">
+			<source media="(max-width: 680px)" srcset="images/banner_mobile.png">  
+			<img class="banner" src="images/banner.png">
 		</picture>
     </div>
 	</header>
@@ -29,7 +34,7 @@
 		<div class="column box">
 			<h2>Alex</h2>
 			<div class="box-body">
-				<image src="../data/alex.png"></image>
+				<image src="images/alex.png"></image>
 				<input id="collapsible2" class="toggle2" type="checkbox">
 				<label for="collapsible2" class="lbl-toggle"><mark>more</mark></label>
 				<div class="collapsible2-content">
@@ -38,6 +43,7 @@
 						<h4>• {{Juego}}</h4>
 						<p>{{Descripcion}}</p>
 						<img src="{{Imagen}}"  />
+						<span><a href="{{Attribution.Source}}">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a></span>
 					</div>
 				{{/Alex}}
 				</div>
@@ -47,7 +53,7 @@
 		<div class="column box">
 			<h2>Nico</h2>
 			<div class="box-body">
-				<image src="../data/nico.png"></image>
+				<image src="images/nico.png"></image>
 				<input id="collapsible3" class="toggle3" type="checkbox">
 				<label for="collapsible3" class="lbl-toggle"><mark>more</mark></label>
 				<div class="collapsible3-content">
@@ -56,6 +62,7 @@
 						<h4>• {{Juego}}</h4>
 						<p>{{Descripcion}}</p>
 						<img src="{{Imagen}}"  />
+						<span><a href="{{Attribution.Source}}">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a></span>
 					</div>
 				{{/Nico}}
 				</div>
@@ -65,7 +72,7 @@
 		<div class="column box">
 			<h2>Pol</h2>
 			<div class="box-body">
-				<image src="../data/pol.png"></image>
+				<image src="images/pol.png"></image>
 				<input id="collapsible" class="toggle" type="checkbox">
 				<label for="collapsible" class="lbl-toggle"><mark>more</mark></label>
 				<div class=" collapsible-content">
@@ -74,6 +81,7 @@
 						<h4>• {{Juego}}</h4>
 						<p>{{Descripcion}}</p>
 						<img src="{{Imagen}}"  />
+						<span><a href="{{Attribution.Source}}">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a></span>
 					</div>
 				{{/Pol}}
 				</div>

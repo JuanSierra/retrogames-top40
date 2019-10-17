@@ -9,7 +9,15 @@ let filtered = {
 	"Alex" : entries.filter(e => e.Autor == "Alex"),
 	"Pol" : entries.filter(e => e.Autor == "Pol"),
 	"Nico" : entries.filter(e => e.Autor == "Nico"),
-	"Todos" : entries.filter(e => e.Autor == "Todos")
+	"Todos" : entries.filter(e => e.Autor == "Todos"),
+	"getAuthor" : function() {
+		return function(text, render) {
+			if(text.indexOf(';') != -1){
+				return render(text.split(';')[0]);
+			}
+			return render(text);
+		}
+	}
 };
 
 var rendered = Mustache.render(template, filtered);

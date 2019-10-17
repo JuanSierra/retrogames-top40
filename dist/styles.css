@@ -323,6 +323,14 @@ img {
      max-height:200px;
      border: 1px solid #999;
 }
+.content-inner img {
+	 min-width:200px;
+}
+.content-inner span{
+	display:block;
+	text-align:right; 
+	font-size:0.8em;
+}
 .banner {
 	 max-width:800px;
      max-height:1000px;
