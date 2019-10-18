@@ -10,12 +10,14 @@ let filtered = {
 	"Pol" : entries.filter(e => e.Autor == "Pol"),
 	"Nico" : entries.filter(e => e.Autor == "Nico"),
 	"Todos" : entries.filter(e => e.Autor == "Todos"),
-	"getAuthor" : function() {
-		return function(text, render) {
-			if(text.indexOf(';') != -1){
-				return render(text.split(';')[0]);
+	"getAuthor" : function () {
+		return function (text, render) {
+			var author =  render(text);
+			if(author.indexOf(',') != -1){
+				author = author.split(',')[0];
 			}
-			return render(text);
+			
+			return author;
 		}
 	}
 };
