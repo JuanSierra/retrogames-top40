@@ -250,7 +250,7 @@ img {
 	max-height:80%;
 }
 }
- @media screen and (max-width: 680px) {
+ @media screen and (max-width: 360px) {
 	 .content-inner img {
 	width:100%;
 	max-width:80%;
