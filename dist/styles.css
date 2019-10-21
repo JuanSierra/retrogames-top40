@@ -216,7 +216,7 @@ img {
 	margin:auto;
 	border: 1px solid #999;
 }
- @media screen and (min-width: 981px) {
+ @media (min-width: 981px) {
      .lbl-toggle, .lbl-toggle2, .lbl-toggle3 {
          display: none;
     }
@@ -225,7 +225,7 @@ img {
 		max-height:200px;
 	}
 }
- @media screen and (max-width: 980px) {
+ @media (min-width: 481px) and (max-width: 980px) {
      .columns .column {
          margin-bottom: 5px;
          flex-basis: 40%;
@@ -250,7 +250,7 @@ img {
 	max-height:80%;
 }
 }
- @media screen and (max-width: 360px) {
+@media (min-width: 320px) and (max-width: 480px) {
 	 .content-inner img {
 	width:100%;
 	max-width:80%;
