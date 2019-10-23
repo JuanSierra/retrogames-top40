@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -34,7 +36,7 @@
 		<div class="column box">
 			<h2>Alex</h2>
 			<div class="box-body">
-				<image src="images/alex.png"></image>
+				<image class="retro" src="images/alex.png"></image>
 				<input id="collapsible2" class="toggle2" type="checkbox">
 				<label for="collapsible2" class="lbl-toggle"><mark>more</mark></label>
 				<div class="collapsible2-content">
@@ -42,7 +44,9 @@
 					<div class="content-inner">
 						<h4>• {{Juego}}</h4>
 						<p>{{Descripcion}}</p>
+						<div class="container__img-holder">
 						<img class="game" src="{{Imagen}}"  />
+						</div>
 						<span><a href="{{Attribution.Source}}">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a></span>
 					</div>
 				{{/Alex}}
@@ -53,7 +57,7 @@
 		<div class="column box">
 			<h2>Nico</h2>
 			<div class="box-body">
-				<image src="images/nico.png"></image>
+				<image class="retro" src="images/nico.png"></image>
 				<input id="collapsible3" class="toggle3" type="checkbox">
 				<label for="collapsible3" class="lbl-toggle"><mark>more</mark></label>
 				<div class="collapsible3-content">
@@ -61,7 +65,9 @@
 					<div class="content-inner">
 						<h4>• {{Juego}}</h4>
 						<p>{{Descripcion}}</p>
+						<div class="container__img-holder">
 						<img class="game" src="{{Imagen}}"  />
+						</div>
 						<span><a href="{{Attribution.Source}}">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a></span>
 					</div>
 				{{/Nico}}
@@ -72,7 +78,7 @@
 		<div class="column box">
 			<h2>Pol</h2>
 			<div class="box-body">
-				<image src="images/pol.png"></image>
+				<image class="retro" src="images/pol.png"></image>
 				<input id="collapsible" class="toggle" type="checkbox">
 				<label for="collapsible" class="lbl-toggle"><mark>more</mark></label>
 				<div class=" collapsible-content">
@@ -80,7 +86,9 @@
 					<div class="content-inner">
 						<h4>• {{Juego}}</h4>
 						<p>{{Descripcion}}</p>
+						<div class="container__img-holder">
 						<img class="game" src="{{Imagen}}"  />
+						</div>
 						<span><a href="{{Attribution.Source}}">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a></span>
 					</div>
 				{{/Pol}}
@@ -101,5 +109,39 @@
 	{{/Todos}}
 	</footer>
 </div>
+
+<div class="img-popup">
+  <img src="" alt="Popup Image">
+  <div class="close-btn">
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  </div>
+<script>
+$(document).ready(function() {
+
+  // required elements
+  var imgPopup = $('.img-popup');
+  var imgCont  = $('.container__img-holder');
+  var popupImage = $('.img-popup img');
+  var closeBtn = $('.close-btn');
+
+  // handle events
+  imgCont.on('click', function() {
+    var img_src = $(this).children('img').attr('src');
+    imgPopup.children('img').attr('src', img_src);
+    imgPopup.addClass('opened');
+  });
+
+  $(imgPopup, closeBtn).on('click', function() {
+    imgPopup.removeClass('opened');
+    imgPopup.children('img').attr('src', '');
+  });
+
+  popupImage.on('click', function(e) {
+    e.stopPropagation();
+  });
+});
+</script>
 </body>
 </html>
