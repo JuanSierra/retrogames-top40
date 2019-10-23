@@ -451,7 +451,6 @@ img {
 }
 
 .img-popup img {
-  max-width: 600px;
   max-height: 2000px;
   width: 100%;
   transform: translateY(-100px);
