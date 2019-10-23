@@ -220,7 +220,7 @@ img {
 	min-width:55px;
 }
 
- @media (min-width: 981px) {
+ @media screen (min-width: 981px) {
      .lbl-toggle, .lbl-toggle2, .lbl-toggle3 {
          display: none;
     }
@@ -229,7 +229,7 @@ img {
 		max-height:200px;
 	}
 }
- @media (min-width: 481px) and (max-width: 980px) {
+ @media screen (min-width: 481px) and (max-width: 980px) {
      .columns .column {
          margin-bottom: 5px;
          flex-basis: 40%;
@@ -254,7 +254,7 @@ img {
 	max-height:80%;
 }
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media screen (min-width: 320px) and (max-width: 480px) {
 	 .content-inner img {
 	width:100%;
 	max-width:80%;
