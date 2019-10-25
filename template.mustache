@@ -104,7 +104,7 @@
 	<div class="box-body">
 		<div class="content-inner">
 		<p>{{Descripcion}}</p>
-		<img src="{{Imagen}}"  />
+		<img class="game" src="{{Imagen}}"  />
 		</div>
 	</div>
 	{{/Todos}}
@@ -132,6 +132,11 @@ $(document).ready(function() {
     var img_src = $(this).children('img').attr('src');
     imgPopup.children('img').attr('src', img_src);
     imgPopup.addClass('opened');
+	
+	if($(this).height() > $(this).width())
+		imgPopup.children('img').css({'width':'auto', 'height':'100%'});
+	else
+		imgPopup.children('img').css({'width':'100%', 'height':'auto'})
   });
 
   $(imgPopup, closeBtn).on('click', function() {

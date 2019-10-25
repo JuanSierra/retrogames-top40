@@ -9,7 +9,7 @@
   <meta name="subject" content="videogames">
   <meta name="language" content="ES">
   <meta name="robots" content="index,follow" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
@@ -377,21 +377,19 @@
 	<div class="box-body">
 		<div class="content-inner">
 		<p>Partió en dos la historia de los videojuegos, la revolución de los shooters. Se recomienda jugar la versión Brutal Doom.</p>
-		<img src="https:&#x2F;&#x2F;www.mobygames.com&#x2F;images&#x2F;shots&#x2F;l&#x2F;1320-doom-ii-dos-screenshot-game-title-screen.gif"  />
+		<img class="game" src="https:&#x2F;&#x2F;www.mobygames.com&#x2F;images&#x2F;shots&#x2F;l&#x2F;1320-doom-ii-dos-screenshot-game-title-screen.gif"  />
 		</div>
 	</div>
 	</footer>
-	
-	<div class="img-popup">
+</div>
+
+<div class="img-popup">
   <img src="" alt="Popup Image">
   <div class="close-btn">
     <div class="bar"></div>
     <div class="bar"></div>
   </div>
   </div>
-</div>
-
-
 <script>
 $(document).ready(function() {
 
@@ -406,6 +404,11 @@ $(document).ready(function() {
     var img_src = $(this).children('img').attr('src');
     imgPopup.children('img').attr('src', img_src);
     imgPopup.addClass('opened');
+	
+	if($(this).height() > $(this).width())
+		imgPopup.children('img').css({'width':'auto', 'height':'100%'});
+	else
+		imgPopup.children('img').css({'width':'100%', 'height':'auto'})
   });
 
   $(imgPopup, closeBtn).on('click', function() {

@@ -1,13 +1,19 @@
- @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@font-face {
+  font-family: "Px437ATI8x8";
+
+  src: url("Px437ATI8x8.woff") format("woff"), /* Modern Browsers */
+    url("Px437ATI8x8.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
  body {
-     font-family: 'Open Sans', sans-serif;
      color: #666;
 }
 /** * Main variables */
 /** * Base styles */
  html, body {
      height: 100%;
-     font-family: "lucida console", monospace;
+     font-family: "Px437ATI8x8", "lucida console", monospace;
      font-size: 1em;
      background-color: #444;
 }
@@ -224,12 +230,13 @@ img {
      .lbl-toggle, .lbl-toggle2, .lbl-toggle3 {
          display: none;
     }
+	img{
+		max-width:200px;
+		max-height:100%;
+	}
 
 	.img-popup img {
-		height:100%;
-		width:100%;
 		max-width: 800px;
-		max-height: 900px;
 	}
 }
  @media (min-width: 481px) and (max-width: 980px) {
@@ -256,7 +263,8 @@ img {
 }
 .content-inner img {
 	width:100%;
-
+	max-width:80%;
+	max-height:80%;
 }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -425,10 +433,9 @@ img {
   }
 
  .container__img-holder {
-  display: inline-block;
+  display: block;
   vertical-align: top;
-  margin-bottom: 20px;
-  margin-left: 16px;
+  margin: 0 auto 5px;
   cursor: pointer;
 }
 
