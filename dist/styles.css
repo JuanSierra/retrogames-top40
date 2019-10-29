@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Px437ATI8x8";
+  font-family: "Px437IBMBIOS";
 
-  src: url("Px437ATI8x8.woff") format("woff"), /* Modern Browsers */
-    url("Px437ATI8x8.woff2") format("woff2"); /* Modern Browsers */
-  font-weight: normal;
+  src: url("./fonts/Px437IBMBIOS.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Px437IBMBIOS.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 100;
   font-style: normal;
 }
  body {
@@ -13,14 +13,17 @@
 /** * Base styles */
  html, body {
      height: 100%;
-     font-family: "Px437ATI8x8", "lucida console", monospace;
+     font-family: "Px437IBMBIOS", "lucida console", monospace;
      font-size: 1em;
      background-color: #444;
 }
 /** * Box */
  .box {
      box-sizing: border-box;
-     margin: 1.2em;
+	 font-family: "Px437IBMBIOS";
+     font-size: 0.8em;
+	 line-height: 120%;
+	 margin: 1.2em;
      padding: 10px 6px;
      background-color: darkblue;
      color: white;
@@ -504,4 +507,8 @@ img {
 .opened img {
   animation: animatepopup 1s ease-in-out .8s;
   -webkit-animation: animatepopup .3s ease-in-out forwards;
+}
+h4{
+	font-weight: normal;
+	
 }
