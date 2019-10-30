@@ -39,7 +39,7 @@
 			<div class="box-body">
 				<image class="retro" src="images/alex.png"></image>
 				<input id="collapsible2" class="toggle2" type="checkbox">
-				<label for="collapsible2" class="lbl-toggle"><mark>more</mark></label>
+				<label for="collapsible2" class="lbl-toggle"></label>
 				<div class="collapsible2-content">
 				{{#Alex}}
 					<div class="content-inner">
@@ -60,7 +60,7 @@
 			<div class="box-body">
 				<image class="retro" src="images/nico.png"></image>
 				<input id="collapsible3" class="toggle3" type="checkbox">
-				<label for="collapsible3" class="lbl-toggle"><mark>more</mark></label>
+				<label for="collapsible3" class="lbl-toggle"></label>
 				<div class="collapsible3-content">
 				{{#Nico}}
 					<div class="content-inner">
@@ -81,7 +81,7 @@
 			<div class="box-body">
 				<image class="retro" src="images/pol.png"></image>
 				<input id="collapsible" class="toggle" type="checkbox">
-				<label for="collapsible" class="lbl-toggle"><mark>more</mark></label>
+				<label for="collapsible" class="lbl-toggle"></label>
 				<div class=" collapsible-content">
 				{{#Pol}}
 					<div class="content-inner">
@@ -104,7 +104,7 @@
 	<div class="box-body">
 		<div class="content-inner">
 		<p>{{Descripcion}}</p>
-		<img class="game" src="{{Imagen}}"  />
+		<img class="game" style="max-width: none !important;" src="{{Imagen}}"  />
 		</div>
 	</div>
 	{{/Todos}}
@@ -112,11 +112,14 @@
 </div>
 
 <div class="img-popup">
+  <div class="frame">
   <img src="" alt="Popup Image">
   <div class="close-btn">
     <div class="bar"></div>
     <div class="bar"></div>
   </div>
+  </div>
+  
   </div>
 <script>
 $(document).ready(function() {
@@ -130,18 +133,23 @@ $(document).ready(function() {
   // handle events
   imgCont.on('click', function() {
     var img_src = $(this).children('img').attr('src');
-    imgPopup.children('img').attr('src', img_src);
+    imgPopup.children().children('img').attr('src', img_src);
     imgPopup.addClass('opened');
+	$('body').addClass('my-body-noscroll-class');
 	
-	if($(this).height() > $(this).width())
-		imgPopup.children('img').css({'width':'auto', 'height':'100%'});
-	else
-		imgPopup.children('img').css({'width':'100%', 'height':'auto'})
+	if($(this).height() > $(this).width()){
+		imgPopup.children('div').css({'width':'auto', 'height':'100%'});
+		imgPopup.children().children('img').css({'width':'auto', 'height':'100%'});
+	}else{
+		imgPopup.children('div').css({'width':'100%', 'height':'auto'});
+		imgPopup.children().children('img').css({'width':'100%', 'height':'auto'});
+	}
   });
 
   $(imgPopup, closeBtn).on('click', function() {
     imgPopup.removeClass('opened');
-    imgPopup.children('img').attr('src', '');
+	$('body').removeClass('my-body-noscroll-class');
+    imgPopup.children().children('img').attr('src', '');
   });
 
   popupImage.on('click', function(e) {

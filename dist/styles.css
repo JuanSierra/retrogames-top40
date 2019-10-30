@@ -24,7 +24,7 @@
      font-size: 0.8em;
 	 line-height: 120%;
 	 margin: 1.2em;
-     padding: 10px 6px;
+     padding: 10px 3px;
      background-color: darkblue;
      color: white;
      box-shadow: 16px 16px 0px #222;
@@ -233,13 +233,16 @@ img {
      .lbl-toggle, .lbl-toggle2, .lbl-toggle3 {
          display: none;
     }
-	img{
-		max-width:200px;
-		max-height:100%;
+	img {
+		max-width: 200px;
+		max-height: 100%;
 	}
 
 	.img-popup img {
 		max-width: 800px;
+	}
+	.frame{
+		max-width:900px;
 	}
 }
  @media (min-width: 481px) and (max-width: 980px) {
@@ -304,29 +307,28 @@ img {
      .lbl-toggle::before {
          //content: ' ';
          display: inline-block;
-         content: "+";
+         content: "[ + ]";
          vertical-align: middle;
-         margin-right: .7rem;
          transform: translateY(-2px);
          transition: transform .2s ease-out;
     }
      .toggle:checked + .lbl-toggle::before {
          //transform: rotate(90deg) translateX(-3px);
-         content: "-" 
+         content: "[ - ]" 
     }
      .toggle:checked + .lbl-toggle + .collapsible-content {
          max-height: 5000px;
     }
      .toggle2:checked + .lbl-toggle::before {
          //transform: rotate(90deg) translateX(-3px);
-         content: "-" 
+         content: "[ - ]" 
     }
      .toggle2:checked + .lbl-toggle + .collapsible2-content {
          max-height: 5000px;
     }
      .toggle3:checked + .lbl-toggle::before {
          //transform: rotate(90deg) translateX(-3px);
-         content: "-" 
+         content: "[ - ]" 
     }
      .toggle3:checked + .lbl-toggle + .collapsible3-content {
          max-height: 5000px;
@@ -365,6 +367,7 @@ img {
 .banner {
 	 width:100%;
 	 max-width:800px;
+	 min-width:250px;
      max-height:1000px;
 	 border: 0px;
 }
@@ -459,20 +462,27 @@ img {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(255, 255, 255, .5);
+  
   display: flex;
   justify-content: center;
   align-items: center;
   display: none;
 }
 
-.img-popup img {
-  width: 100%;
-  transform: translateY(-100px);
+.frame{
+	background: darkblue;
+	padding: 30px 15px;
+	border: 3px double white;
+	  transform: translateY(-100px);
   -webkit-transform: translateY(-100px);
   -moz-transform: translateY(-100px);
   -ms-transform: translateY(-100px);
   -o-transform: translateY(-100px);
+}
+
+.img-popup img {
+  width: 100%;
+
 }
 
 .close-btn {
@@ -491,7 +501,9 @@ img {
   height: 4px;
   background: #333;
 }
-
+.my-body-noscroll-class {
+    overflow: hidden;
+}
 .close-btn .bar:nth-child(1) {
   transform: rotate(45deg);
 }
