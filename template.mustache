@@ -48,7 +48,12 @@
 						<div class="container__img-holder">
 						<img class="game" src="{{Imagen}}"  />
 						</div>
-						<span><a href="{{Attribution.Source}}">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a></span>
+						<span>By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}
+						<div class="popover text-dark"><div class="innerpop">
+						  {{Attribution.Title}}<br/>
+						  {{Attribution.License}}
+						</div></div>
+						</span>
 					</div>
 				{{/Alex}}
 				</div>
@@ -155,6 +160,13 @@ $(document).ready(function() {
   popupImage.on('click', function(e) {
     e.stopPropagation();
   });
+  
+    $('.content-inner span').mouseenter(function(){
+	  var pos = $(this).position();
+	  $(this).find('div').css('top', (pos.top)+15 + 'px').stop().fadeIn();
+	}).mouseleave(function(){
+	  $(this).find('div').stop().fadeOut();
+	});
 });
 </script>
 </body>
