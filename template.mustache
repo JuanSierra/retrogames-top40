@@ -48,10 +48,11 @@
 						<div class="container__img-holder">
 						<img class="game" src="{{Imagen}}"  />
 						</div>
-						<span>By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}
+						<span><a href="#">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a>
 						<div class="popover text-dark"><div class="innerpop">
-						  {{Attribution.Title}}<br/>
-						  {{Attribution.License}}
+						  <a href="{{Attribution.Source}}">{{Attribution.Title}}</a> <br/>
+						  By {{#getAuthorLink}}{{Attribution.Author}}{{/getAuthorLink}}<br/>
+						  Licensed under {{#getLicenseLink}}{{Attribution.License}}{{/getLicenseLink}}
 						</div></div>
 						</span>
 					</div>
@@ -74,7 +75,13 @@
 						<div class="container__img-holder">
 						<img class="game" src="{{Imagen}}"  />
 						</div>
-						<span><a href="{{Attribution.Source}}">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a></span>
+						<span><a href="#">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a>
+						<div class="popover text-dark"><div class="innerpop">
+						  <a href="{{Attribution.Source}}">{{Attribution.Title}}</a> <br/>
+						  By {{#getAuthorLink}}{{Attribution.Author}}{{/getAuthorLink}}<br/>
+						  Licensed under {{#getLicenseLink}}{{Attribution.License}}{{/getLicenseLink}}
+						</div></div>
+						</span>
 					</div>
 				{{/Nico}}
 				</div>
@@ -95,7 +102,13 @@
 						<div class="container__img-holder">
 						<img class="game" src="{{Imagen}}"  />
 						</div>
-						<span><a href="{{Attribution.Source}}">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a></span>
+						<span><a href="#">By {{#getAuthor}}{{Attribution.Author}}{{/getAuthor}}</a>
+						<div class="popover text-dark"><div class="innerpop">
+						  <a href="{{Attribution.Source}}">{{Attribution.Title}}</a> <br/>
+						  By {{#getAuthorLink}}{{Attribution.Author}}{{/getAuthorLink}}<br/>
+						  Licensed under {{#getLicenseLink}}{{Attribution.License}}{{/getLicenseLink}}
+						</div></div>
+						</span>
 					</div>
 				{{/Pol}}
 				</div>

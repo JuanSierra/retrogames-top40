@@ -19,6 +19,26 @@ let filtered = {
 			
 			return author;
 		}
+	},
+	"getAuthorLink" : function () {
+		return function (text, render) {
+			var author =  render(text);
+			if(author.indexOf(',') != -1){
+				let parts = author.split(',');
+				author = `<a href="${parts[1]}">${parts[0]}</a>`
+			}
+			
+			return author;
+		}
+	},
+	"getLicenseLink" : function () {
+		return function (text, render) {
+			var license =  render(text);
+			let parts = license.split(',');
+			let link = `<a href="${parts[1]}">${parts[0]}</a>`;
+			
+			return render(link);
+		}
 	}
 };
 
