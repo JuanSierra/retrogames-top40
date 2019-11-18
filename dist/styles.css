@@ -467,6 +467,7 @@ img {
   justify-content: center;
   align-items: center;
   display: none;
+  z-index:30;
 }
 
 .frame:before{
@@ -479,23 +480,28 @@ img {
 	background: darkblue;
 	padding: 0 0 30px 0;
 	border: 3px double white;
+	padding:15px;
+	display: flex;
+	flex-direction: column;
+	z-index:40;
 	}
 
 .img-popup img {
   width: 100%;
-margin-right:15px;
-  margin-left:15px;
+
 }
 
 .close-btn {
-	width: 100%;
-	height: 30px;
+	width:30px;
+	height:30px;
 	display: flex;
+	align-self: flex-end;
 	justify-content: flex-end;
 	flex-direction: row;
 	cursor: pointer;
-	font-family: "Px437IBMBIOS";
+	font-family: "PerfectDOSVGA437";
 	font-size: 1.5em;
+	z-index:50;
 }
 
 .my-body-noscroll-class {
@@ -507,8 +513,8 @@ margin-right:15px;
 }
 
 .opened img {
-  
-  
+
+  border: none;
   animation: animatepopup 1s ease-in-out .8s;
   -webkit-animation: animatepopup .3s ease-in-out forwards;
 }
@@ -526,7 +532,7 @@ h4{
 .popover .innerpop
 {
 	padding: 1em 2em;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 .popover a {
 	background-color: gray;

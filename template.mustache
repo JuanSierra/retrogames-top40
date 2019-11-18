@@ -131,13 +131,10 @@
 
 <div class="img-popup">
   <div class="frame">
+    <div class="close-btn">X
+  </div>
   <img src="" alt="Popup Image">
-  <div class="close-btn">
-    <div class="bar"></div>
-    <div class="bar"></div>
   </div>
-  </div>
-  
   </div>
 <script>
 $(document).ready(function() {
@@ -147,6 +144,7 @@ $(document).ready(function() {
   var imgCont  = $('.container__img-holder');
   var popupImage = $('.img-popup img');
   var closeBtn = $('.close-btn');
+  var frame = $('.frame');
 
   // handle events
   imgCont.on('click', function() {
@@ -172,6 +170,11 @@ $(document).ready(function() {
 
   popupImage.on('click', function(e) {
     e.stopPropagation();
+  });
+  
+  frame.on('click', function(e) {
+	if($(e.target).attr('class') != 'close-btn')
+		e.stopPropagation();
   });
   
     $('.content-inner span').mouseenter(function(){
