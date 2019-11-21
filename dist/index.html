@@ -605,7 +605,9 @@
 	<div class="box-body">
 		<div class="content-inner">
 		<p>Partió en dos la historia de los videojuegos, la revolución de los shooters. Se recomienda jugar la versión Brutal Doom.</p>
-		<img class="game" style="max-width: none !important;" src="https:&#x2F;&#x2F;www.mobygames.com&#x2F;images&#x2F;shots&#x2F;l&#x2F;1320-doom-ii-dos-screenshot-game-title-screen.gif"  />
+		<div class="container__img-holder">
+		<img class="game" style="max-width: 300px !important;" src="https:&#x2F;&#x2F;www.mobygames.com&#x2F;images&#x2F;shots&#x2F;l&#x2F;1320-doom-ii-dos-screenshot-game-title-screen.gif"  />
+		</div>
 		</div>
 	</div>
 	</footer>
@@ -633,11 +635,12 @@ $(document).ready(function() {
     var img_src = $(this).children('img').attr('src');
     imgPopup.children().children('img').attr('src', img_src);
     imgPopup.addClass('opened');
-	$('body').addClass('my-body-noscroll-class');
+	$('body').addClass('body-noscroll-class');
 	
 	if($(this).height() > $(this).width()){
-		imgPopup.children('div').css({'width':'auto', 'height':'100%'});
-		imgPopup.children().children('img').css({'width':'auto', 'height':'100%'});
+		imgPopup.children('div').css({'width':'auto', 'height':'80%'});
+		imgPopup.children().children('img').css({'width':'auto', 'height':'80%'});
+		frame.css({'width':'auto', 'height':'80%'});
 	}else{
 		imgPopup.children('div').css({'width':'100%', 'height':'auto'});
 		imgPopup.children().children('img').css({'width':'100%', 'height':'auto'});
@@ -646,7 +649,7 @@ $(document).ready(function() {
 
   $(imgPopup, closeBtn).on('click', function() {
     imgPopup.removeClass('opened');
-	$('body').removeClass('my-body-noscroll-class');
+	$('body').removeClass('body-noscroll-class');
     imgPopup.children().children('img').attr('src', '');
   });
 

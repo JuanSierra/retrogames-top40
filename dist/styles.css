@@ -12,7 +12,7 @@
 /** * Main variables */
 /** * Base styles */
  html, body {
-     height: 100%;
+     
      font-family: "PerfectDOSVGA437", "lucida console", monospace;
      font-size: 1em;
      background-color: #444;
@@ -235,7 +235,7 @@ img {
     }
 	img {
 		max-width: 200px;
-		max-height: 100%;
+		max-height: 80%;
 	}
 
 	.img-popup img {
@@ -300,6 +300,8 @@ img {
          padding: 1rem;
          cursor: pointer;
          transition: all 0.25s ease-out;
+		 color:yellow;
+		 
     }
      .lbl-toggle:hover {
          //color: #7C5A0B;
@@ -488,7 +490,6 @@ img {
 
 .img-popup img {
   width: 100%;
-
 }
 
 .close-btn {
@@ -504,7 +505,7 @@ img {
 	z-index:50;
 }
 
-.my-body-noscroll-class {
+.body-noscroll-class {
     overflow: hidden;
 }
 
